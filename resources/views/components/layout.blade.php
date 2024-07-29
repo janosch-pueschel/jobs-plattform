@@ -6,10 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta content="ie=edge" http-equiv="X-UA-Compatible">
     <title>Pixel Positions</title>
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
     @vite(['resources/js/app.js', 'resources/css/app.css'])
 </head>
 
-<body class="bg-black text-white">
+<body class="bg-black font-hanken-grotesk text-white">
     <div class="px-10">
         <nav class="flex items-center justify-between border-b border-white/10 py-4">
             <div>
